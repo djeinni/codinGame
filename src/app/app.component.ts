@@ -1,11 +1,17 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { LabelComponentComponent } from './label-component/label-component.component';
+import { ClickButtonNameComponent } from './click-button-name/click-button-name.component';
+import { NameLengthComponent } from './name-length/name-length.component';
+import { PipeCurrencyComponent } from './pipe-currency/pipe-currency.component';
+import { BuiltInComponent } from './built-in/built-in.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, LabelComponentComponent, ClickButtonNameComponent, NameLengthComponent,
+    PipeCurrencyComponent, BuiltInComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
