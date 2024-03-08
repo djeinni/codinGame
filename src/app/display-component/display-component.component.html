@@ -1,0 +1,10 @@
+<div  id='lastVote'>
+  {{answer}}
+  <app-voter-component
+  [question]="question"
+  [yesAnswer="yesAnswer"
+  [noAnswer]="noAnswer"
+  (output)="setVote($event)">
+</app-voter-component>
+</div>
+

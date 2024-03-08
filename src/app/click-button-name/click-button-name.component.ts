@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   imports: [CommonModule],
   templateUrl: './click-button-name.component.html',
   styleUrl: './click-button-name.component.css'
-})
+}) <app-user [user]="user" 
 export class ClickButtonNameComponent {
   name = 'John Doe';
   show = true;

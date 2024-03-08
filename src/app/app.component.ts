@@ -6,12 +6,13 @@ import { ClickButtonNameComponent } from './click-button-name/click-button-name.
 import { NameLengthComponent } from './name-length/name-length.component';
 import { PipeCurrencyComponent } from './pipe-currency/pipe-currency.component';
 import { BuiltInComponent } from './built-in/built-in.component';
+import { AppUserComponent } from './app-user/app-user.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, LabelComponentComponent, ClickButtonNameComponent, NameLengthComponent,
-    PipeCurrencyComponent, BuiltInComponent],
+    PipeCurrencyComponent, BuiltInComponent, AppUserComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
